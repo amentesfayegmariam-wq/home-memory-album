@@ -17,7 +17,7 @@ interface Picked {
   isVideo: boolean;
   progress: number;
   status: Status;
-  error?: string;
+  error?: string | undefined;
 }
 
 const ACCEPT = "image/*,video/*";
